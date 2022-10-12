@@ -1,15 +1,11 @@
-<script>
+<script lang="ts">
 
 	// Imports:
-	import Nav from '$lib/Nav.svelte';
 	import '../app.css';
 	
 </script>
 
 <!-- #################################################################################################### -->
-
-<!-- Navbar -->
-<Nav />
 
 <!-- App Content -->
 <main><slot /></main>
@@ -21,7 +17,7 @@
 	main {
 		display: flex;
 		flex-direction: column;
-		padding: 1em;
+		min-height: 100vh;
 		overflow-x: hidden;
 	}
 
