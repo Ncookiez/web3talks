@@ -2,7 +2,6 @@
 
 	// Imports:
 	import Nav from '$lib/Nav.svelte';
-	import Footer from '$lib/Footer.svelte';
 	import '../app.css';
 	
 </script>
@@ -15,15 +14,15 @@
 <!-- App Content -->
 <main><slot /></main>
 
-<!-- Footer -->
-<Footer />
-
 <!-- #################################################################################################### -->
 
 <style>
 
 	main {
+		display: flex;
+		flex-direction: column;
 		padding: 1em;
+		overflow-x: hidden;
 	}
 
 </style>
