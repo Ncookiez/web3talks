@@ -22,11 +22,10 @@
 			</span>
 		</div>
 		<div id="info">
-			<p>Web3 has rewritten many rules about building products, acquiring users & collaboration. Composability, open data, airdrops, tokens, DAOs - all these things can be confusing even for web3 native people, let alone people who're just entering the space.</p>
-			<p>Web3 Talks is a place to learn the nuts & bolts of web3 by listening to the stories of successful web3 projects. <span class="highlight">You can learn what has worked and what hasn't, so you don't repeat their mistakes.</span></p>
+			<p>Web3 Talks is the place to learn the nuts & bolts of web3 by listening to the stories of successful web3 projects. <span class="highlight">You can learn what has worked and what hasn't, so you don't repeat their mistakes.</span></p>
 			<p>As we're focused on builders, <span class="highlight">we don't talk high-level VC stuff</span> like “What is Metaverse?” or trading-oriented things such as “Which coin should you invest in 2022?”.</p>
 			<p>Instead, we focus on questions such as <span class="highlight">“How have you acquired first users?”</span>, <span class="highlight">“How do you take care of your community?”</span> or <span class="highlight">“What were the biggest technical challenges that you've faced so far?”</span></p>
-			<p>Our vision is to be a place that inspires fellow hackers & entrepreneurs to build their own web3 projects that will <span class="highlight">define the future of the web.</span></p>
+			<p>Our vision is to inspire fellow hackers & entrepreneurs to build their own web3 projects that will <span class="highlight">define the future of the web.</span></p>
 		</div>
 	</section>
 </div>
@@ -40,11 +39,11 @@
 	}
 
 	#podcastInfo {
-		--sharpness: 20%;
+		--sharpness: 15%;
 		display: flex;
 		gap: 10em;
-		margin: -7em 0;
-		padding: 10em 10vw;
+		margin-top: -7em;
+		padding: 8em 10vw;
 		background: var(--primary-color);
 		-webkit-clip-path: polygon(0 var(--sharpness), 100% 0, 100% calc(100% - var(--sharpness)), 0 100%);
 		clip-path: polygon(0 var(--sharpness), 100% 0, 100% calc(100% - var(--sharpness)), 0 100%);

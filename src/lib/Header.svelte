@@ -13,7 +13,7 @@
 		display: flex;
 		align-items: center;
 		width: 100%;
-		padding: 7em 25vw 8em;
+		padding: 5em 25vw 8em;
 	}
 
 	img {
