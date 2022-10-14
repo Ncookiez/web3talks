@@ -1,7 +1,7 @@
 <script lang="ts">
 
 	// Imports:
-	import Header from '$lib/Header.svelte';
+	import Intro from '$lib/Intro.svelte';
 	import Socials from '$lib/Socials.svelte';
 	import PodcastInfo from '$lib/PodcastInfo.svelte';
 
@@ -31,8 +31,8 @@
 	<meta name="description" content="Learn how to build web3 projects directly from successful web3 builders." />
 </svelte:head>
 
-<!-- Header -->
-<Header />
+<!-- Intro Header -->
+<Intro />
 
 <!-- Podcast Info -->
 <PodcastInfo {links} />

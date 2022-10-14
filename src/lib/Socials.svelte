@@ -43,8 +43,13 @@
 	}
 
 	h2 {
+		text-align: center;
 		font-size: 2em;
 		text-shadow: 2px 2px 2px var(--primary-color);
+	}
+
+	a {
+		display: flex;
 	}
 
 	a:hover {
@@ -59,6 +64,37 @@
 
 	#join, #follow {
 		flex: 1;
+	}
+
+	@media screen and (max-width: 1700px) {
+		#socials {
+			padding: 3.5em 15vw;
+		}
+	}
+
+	@media screen and (max-width: 1450px) {
+		#socials {
+			padding: 3.5em 10vw;
+			font-size: .9em;
+		}
+	}
+
+	@media screen and (max-width: 1150px) {
+		#socials {
+			flex-direction: column;
+			gap: 1em;
+			padding-bottom: 5em;
+		}
+		#socials > div {
+			flex-direction: row;
+			justify-content: center;
+			gap: 1em;
+		}
+		svg {
+			height: 2em;
+			width: 2em;
+			margin-top: .5em;
+		}
 	}
 	
 </style>

@@ -49,7 +49,7 @@
 		clip-path: polygon(0 var(--sharpness), 100% 0, 100% calc(100% - var(--sharpness)), 0 100%);
 	}
 
-	#podcastInfo > div {
+	#listen, #info {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -94,6 +94,28 @@
 
 	.highlight {
 		color: var(--accent-color);
+	}
+
+	@media screen and (max-width: 1600px) {
+		#listen {
+			gap: 1em;
+		}
+	}
+
+	@media screen and (max-width: 1050px) {
+		#podcastInfo {
+			flex-direction: column;
+			gap: 3em;
+		}
+		#info {
+			gap: 1em;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+		#podcastInfo {
+			--sharpness: 5%;
+		}
 	}
 	
 </style>
